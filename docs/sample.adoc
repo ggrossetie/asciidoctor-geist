@@ -1,0 +1,57 @@
+== Start our Asciidoctor journey
+
+Caching is very important for fast Web sites. This article describes different methods of caching and how to use HTTP Headers to control them.
+
+A brief description of the changes between the early versions of HTTP, to the modern HTTP/2, the emergent HTTP/3 and beyond.
+
+.hello.js
+[source,js]
+----
+console.log('Hello')
+----
+
+Install Asciidoctor.js:
+
+ npm i @asciidoctor/core
+
+Display formatted data in rows and columns:
+
+[cols=4,opts=header]
+|====
+|Property
+|Description
+|Type
+|Default
+
+|type
+|Content type
+|secondary / warning
+|-
+
+|Component
+|DOM element to use
+|string
+|-
+
+|bold
+|Bold style
+|boolean
+|true
+|====
+
+All folders and files are sorted automatically:
+
+[.filetree]
+* package.json
+* components
+** layout.js
+** footer
+*** footer.js
+*** footer-text.js
+*** footer-license.js
+** header.js
+* readme.md
+
+Show a piece of text or components.
+
+NOTE: This note details something important.
